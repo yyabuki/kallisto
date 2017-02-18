@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER yyabuki <yabuki.yukimitsu@imsbio.co.jp>
+MAINTAINER Yukimitsu Yabuki, yukimitsu.yabuki@gmail.com
 RUN apt-get update && apt-get -y upgrade \
     && apt-get -y install wget \
     && wget https://github.com/pachterlab/kallisto/releases/download/v0.43.0/kallisto_linux-v0.43.0.tar.gz \
